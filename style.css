@@ -1,0 +1,101 @@
+#container{
+    background-color: rgb(108, 203, 190);
+    padding: 150px;
+    margin: 200px 600px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    margin-top: -75px;
+    margin-bottom: 80px;
+}
+
+input{
+    height: 40px;
+    width: 140px;
+    border-radius: 8px;
+    background-color: rgba(108, 201, 150, 0.289);
+    margin: 15px;
+    transition:  0.3s ease;
+}
+
+input:hover{
+    transform: scale(1.1);
+}
+
+.plus{
+    width: 55px;
+    font-size: 17px;
+    background-color: rgba(0, 172, 34, 0.53);
+    border-radius: 20px;
+    transition:  0.3s ease;
+    margin: 10px;
+}
+
+.plus:hover{
+    transform: scale(1.1);
+    background-color: rgb(226, 223, 25);
+}
+
+.minus{
+    width: 55px;
+    font-size: 17px;
+    background-color: rgba(241, 40, 0, 0.53);
+    border-radius: 20px;
+    transition:  0.3s ease;
+    margin: 10px;
+}
+
+.minus:hover{
+    transform: scale(1.1);
+    background-color: rgb(226, 223, 25);
+}
+
+.multiplication{
+    width: 55px;
+    font-size: 17px;
+    background-color: rgba(4, 0, 243, 0.53);
+    border-radius: 20px;
+    transition:  0.3s ease;
+    margin: 10px;
+}
+
+.multiplication:hover{
+    transform: scale(1.1);
+    background-color: rgb(226, 223, 25);
+}
+
+.division{
+    width: 55px;
+    font-size: 17px;
+    background-color: rgba(227, 0, 247, 0.53);
+    border-radius: 20px;
+    transition:  0.3s ease;
+    margin: 10px;
+}
+
+.division:hover{
+    transform: scale(1.1);
+    background-color: rgb(226, 223, 25);
+}
+
+.result{
+    height: 35px;
+    width: 125px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(90, 246, 0);
+    transition: 0.2s ease;
+}
+
+.result:hover{
+    transform: scale(1.05)
+}
+
+.sum{
+    height: 30px;
+    margin-right: -10px;
+}
